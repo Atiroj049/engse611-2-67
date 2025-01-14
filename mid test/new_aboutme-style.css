@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    background-color: #90a4ae;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #0056b3;
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-family: "Verdana", sans-serif;
+    font-size: 24px;
+    border-bottom: 2px solid #455a64;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+img {
+    margin-right: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Section-Specific Styles */
+header {
+    background-color: rgb(245, 172, 15);
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Class and Favorite Section */
+.class-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 242, 204);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.section-title {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Moods and Fun Facts Section */
+.moods-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(213, 232, 212);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.moods-section > div {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
